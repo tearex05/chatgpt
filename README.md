@@ -1,12 +1,30 @@
-# React + Vite
+# ChatGPT Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, AI-powered chat interface built with **React**, **Vite**, and **Tailwind CSS**, inspired by the ChatGPT UI. This project uses the **Google Generative AI API (Gemini)** to generate responses.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 💬 Chat interface with bot and user messages  
+- 🌙 Dark theme with smooth UI and subtle gradient background  
+- 📁 Conversations saved to local storage with titles  
+- 📝 Auto-expanding input field with Enter to send & Shift+Enter for new lines  
+- ⏳ Loading animation while waiting for bot response  
+- 📱 Fully responsive layout (mobile + desktop)  
+- 🧭 Sidebar with saved chat history and new chat functionality  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔗 Live Demo
+
+👉 [https://tearex05.github.io/chatgpt/](https://tearex05.github.io/chatgpt/)
+
+---
+
+## ⚙️ Tech Stack
+
+- **React + Vite** – Frontend framework and bundler  
+- **Tailwind CSS** – Styling  
+- **Google Generative AI API (Gemini 2.5 Flash)** – Backend chat responses  
+- **LocalStorage** – For chat history persistence  
